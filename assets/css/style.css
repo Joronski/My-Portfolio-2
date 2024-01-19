@@ -233,7 +233,7 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 350px;
+    width: 295px;
 }
 
 /* ABOUT */
@@ -489,10 +489,17 @@ img {
 /* MEDIA QUERIES */
 
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 280px) {
   .home_img {
     width: 230px;
   }
+}
+
+@media screen and (min-width: 540px) {
+    .home_img {
+        width: 400px;
+        right: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -615,7 +622,13 @@ img {
     }
 
     .home_img {
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .home_img {
         width: 400px;
-        right: 24%;
+        right: 8%;
     }
 }
