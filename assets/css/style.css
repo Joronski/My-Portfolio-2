@@ -608,7 +608,7 @@ img {
     }
 }
 
-/* For tall screens on mobiles y desktop*/
+/* For tall screens on mobiles and desktop*/
 @media screen and (min-height: 721px) {
     .home_container {
         height: 640px;
