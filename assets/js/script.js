@@ -72,8 +72,8 @@ sr.reveal('.portfolio_img', {interval: 200})
 /* SCROLL CERTIFICATIONS */
 sr.reveal('.certification_img', {interval: 200})
 
-/* SCROLL CONTACT */
+/* SCROLL CONTACT 
 sr.reveal('.contact_subtitle', {})
 sr.reveal('.contact_text', {interval: 200})
 sr.reveal('.contact_input', {delay: 400})
-sr.reveal('.contact_button', {delay: 600})
+sr.reveal('.contact_button', {delay: 600}) */
