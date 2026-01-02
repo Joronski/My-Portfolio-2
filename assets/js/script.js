@@ -75,3 +75,6 @@ sr.reveal('.certification_img', {interval: 200})
 /* SCROLL CONTACT */
 sr.reveal('.contact_subtitle', {})
 sr.reveal('.contact_text', {interval: 200})
+
+/* DYNAMIC YEAR CHANGE */
+document.getElementById("year").textContent = new Date().getFullYear();
